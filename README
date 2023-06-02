@@ -1,0 +1,58 @@
+AI Gym - Web Application
+
+AI Gym is developed using python framework Django. Django is a popular web framework for Python that is designed to help developers build web applications quickly and efficiently. It provides a high-level framework for web development, including a powerful ORM (Object-Relational Mapping) system, built-in security features, and a customizable admin interface.
+
+Other major packages includes OpenCV, pandas, mediapipe. OpenCV (Open Source Computer Vision) is a library of computer vision and machine learning algorithms developed by Intel. It is widely used for real-time image and video processing, object detection and tracking, facial recognition, and more.
+
+OpenCV provides a Python interface that allows developers to easily use its functionalities in their Python applications. Here are some of the basic steps to use OpenCV in Python:
+
+
+MediaPipe is a cross-platform framework for building multimodal applied machine learning pipelines. It provides easy-to-use Python APIs for building real-time computer vision, audio, and sensor-based applications. One of the key features of MediaPipe is its pre-built, customizable pipelines for common perception tasks like object detection, hand tracking, pose estimation, face detection and tracking, and more.
+=======================================================================================================
+HOW TO RUN
+
+Download repository from github using URL:
+or directory download the code
+
+Go to the code directory
+open code in IDLE 
+Activate virtual environment
+
+Process:
+How to install virtualenv:
+Install pip first
+sudo apt-get install python3-pip
+Then install virtualenv using pip3
+sudo pip3 install virtualenv 
+Now create a virtual environment
+virtualenv venv 
+you can use any name insted of venv
+
+You can also use a Python interpreter of your choice
+virtualenv -p /usr/bin/python2.7 venv
+Active your virtual environment:
+source venv/bin/activate
+Using fish shell:
+source venv/bin/activate.fish
+To deactivate:
+deactivate
+
+=======================================================================================================
+RUN Project
+commands:
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+=======================================================================================================
+Login page URL : http://127.0.0.1:8000/
+Admin panel URL : http://127.0.0.1:8000/
+user:atif
+password: atif
+=======================================================================================================
+Database
+sqlite3 DB is used with this project
+
+
+SQLite is a lightweight, serverless, and self-contained relational database management system that is widely used in small to medium-sized applications. It is a file-based database that stores data in a structured manner and provides a SQL interface for managing data. SQLite is easy to use, fast, and reliable.
+=======================================================================================================
+
